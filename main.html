@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love You Forever</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, My Love</h1>
+        <p>Every moment with you is a treasure.</p>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <div class="hero">
+                <h2>Love Minesweeper</h2>
+                <label for="grid-size">Select Grid Size:</label>
+                <select id="grid-size">
+                    <option value="16">16x16</option>
+                    <option value="32">32x32</option>
+                    <option value="50" selected>50x50</option>
+                    <option value="64">64x64</option>
+                    <option value="100">100x100</option>
+                    <option value="150">150x150</option>
+                </select>
+                <div id="minesweeper"></div>
+                <div id="game-status"></div>
+                <button id="reset-button" class="game-button">Reset Game</button>
+            </div>
+            <div class="features" id="features">
+                <h2>Our Love Story</h2>
+                <p><strong>The Beginning:</strong> It all started with a smile.</p>
+                <p><strong>Adventures:</strong> Every adventure with you is unforgettable.</p>
+                <div class="button-container" id="button-container">
+                    <button class="love-button" id="love-button">I Love You More</button>
+                </div>
+            </div>
+            <div class="reasons">
+                <h2>100 Reasons Why I Love You</h2>
+                <div class="reasons-list">
+                    <ul id="reasons-list">
+                        <!-- JavaScript will populate this list -->
+                    </ul>
+                </div>
+            </div>
+            <button class="show-meme-button" id="show-meme-button">Show Love Meme</button>
+            <div class="meme-container" id="meme-container">
+                <div class="meme-frame" id="meme1">
+                    <iframe src="https://giphy.com/embed/9QM16dR8L38XwbzK84" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+                </div>
+                <div class="meme-frame" id="meme2">
+                    <iframe src="https://giphy.com/embed/hs6M7b3oBHBc9uDiaG" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+                </div>
+                <div class="meme-frame" id="meme3">
+                    <iframe src="https://giphy.com/embed/9G0AdBbVrkV3O" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+                </div>
+                <div class="meme-frame" id="meme4">
+                    <iframe src="https://giphy.com/embed/l4pTdcifPZLpDjL1e" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+                </div>
+                <div class="meme-frame" id="meme5">
+                    <iframe src="https://giphy.com/embed/26xBFT1F9BgskEvTO" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+                </div>
+                <div class="meme-frame" id="meme6">
+                    <iframe src="https://giphy.com/embed/l0HU2sYgCZh3HiKnS" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="quote-widget" id="quote-widget">
+            <h3>Romantic Quotes</h3>
+            <div id="quotes-container">
+                <!-- JavaScript will populate this list -->
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
